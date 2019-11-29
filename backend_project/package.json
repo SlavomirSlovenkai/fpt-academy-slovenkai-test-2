@@ -1,0 +1,19 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo 'Starting server app' && nodemon",
+    "startDbServer": "echo 'Starting database server' && mongod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "mongoose": "5.7.12"
+  }
+}

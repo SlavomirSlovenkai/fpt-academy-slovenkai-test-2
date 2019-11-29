@@ -1,0 +1,32 @@
+.colStyle {
+    border: 1px solid darkslategray;
+    padding: 0px 0px;
+    padding-bottom: 0px;
+  }
+
+  .tileStyle {
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+  }
+
+  .open {
+    background-color: darkgray !important;
+  }
+
+  .closed {
+    background-color: white !important;
+    color: blue !important;
+    font-size: large;
+  }
+
+  .closed:hover {
+    background-color: skyblue !important;
+  }
+
+  .won {
+    color: limegreen !important;
+    background-color: white !important;
+  }
